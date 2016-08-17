@@ -16,3 +16,6 @@ service elasticsearch restart
 
 cd /usr/share/
 elasticsearch/bin/plugin -install mobz/elasticsearch-head
+elasticsearch/bin/plugin -install com.yakaz.elasticsearch.plugins/elasticsearch-analysis-combo/1.5.1
+elasticsearch/bin/plugin -install elasticsearch/elasticsearch-analysis-icu/2.7.0
+service elasticsearch restart
