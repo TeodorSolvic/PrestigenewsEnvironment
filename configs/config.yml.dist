@@ -1,0 +1,16 @@
+vm:
+    memory: 2048
+    cpus: 2
+    ioapic: "on"
+    box: ubuntu/trusty64
+    host_name: prestigenews.dev
+    synced_folder_from: Prestigenews
+    synced_folder_to: /var/www/prestigenews
+    synced_folder_type: nfs
+    network_ip: 192.168.61.11
+database:
+    root_password: root
+    db_name: prestigenews
+xdebug:
+    remote_host: 192.168.50.1
+    idekey: XDEBUGIDEKEY
