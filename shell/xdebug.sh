@@ -1,5 +1,5 @@
 #!/bin/sh
-echo "zend_extension=/usr/lib/php5/20121212/xdebug.so
+echo ";zend_extension=/usr/lib/php5/20121212/xdebug.so
     xdebug.default_enable = 1
     xdebug.idekey = "$2"
     xdebug.remote_enable = 1
